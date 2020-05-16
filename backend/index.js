@@ -1,11 +1,19 @@
 const express = require('express');
-
-const PORT = 3000;
+const bodyParser = require('body-parser');
 
 const app = express();
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}))
+
+const port = 3001;
+
 app.get('/', function (req,res){
-    res.send('Hello wolrd ');
+    res.send('Hello wolrd kkkk ');
 });
 
-app.listen(PORT);
+const rotas = require('./rotas');
+
+app.use('/api', rotas)
+
+app.listen(port);
