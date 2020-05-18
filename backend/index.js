@@ -14,6 +14,8 @@ app.get('/', function (req,res){
 
 const rotas = require('./rotas');
 
+app.use(express.static(__dirname + '/frontend'))
+
 app.use('/api', rotas)
 
 app.listen(port);
