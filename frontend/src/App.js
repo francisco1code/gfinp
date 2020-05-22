@@ -1,21 +1,19 @@
-import React, {Component} from 'react';
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
 
-class App extends Component {
-  constructor(props){
-    super(props)
+const App = () => {
 
+  // Utilizando o useEffect(Ciclo de vida c/ React Hooks): callback executado toda vez que o componente for montado
+  useEffect(() => {
+    console.log('Componente Montado...');
     axios 
       .get('/postagens')
       .then(resposta => {
         console.log(resposta)
       })
-    
-  }
+  },[]);
 
-  render(){
   return (
     <div className="App">
         <p>
@@ -23,7 +21,7 @@ class App extends Component {
         </p>
     </div>
   );
-  }
+  
 }
 
 export default App;
