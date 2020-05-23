@@ -1,4 +1,18 @@
 # Gfinp
+
+1- [O que é o Gfinp](#o-que-é-gfinp)
+
+2- [Como rodar o Gfinp](#como-rodar-o-gfinp)
+
+* 2.1 - [Instale o docker](https://docs.docker.com/engine/install/ubuntu/)
+
+* 2.2 - [Instale o docker-compose](https://docs.docker.com/compose/install/)
+
+* 2.3 - [Instale o node.js](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+
+
+
+3- [Acessando o sistema web](#acessando-o-sistema-web)
 # O que é Gfinp?
 ## Gfinp 
 É uma plataforma web responsavel por organizar e gerir sua área financeira. O nome é uma sigla para Gestão Finaceira Perssoal.
@@ -9,13 +23,10 @@ Atenção: Lembrando q todos esses comandos são baseados em cima no sistema ope
 * react.js   (front-end)
 * docker e docker-compose (devops)
 
+
 # Como Rodar o Gfinp
 ## Subindo o Gfinp
 Atenção: Verifique que você tenha o docker e o docker compose intalado na sua maquina para rodar o conteiner do back-end.
-
-[Instale o docker](https://docs.docker.com/engine/install/ubuntu/)
-
-[Instale o docker-compose](https://docs.docker.com/compose/install/)
 
 
     docker -v && docker-compose -v
@@ -40,8 +51,9 @@ Atenção: Verifique que você esteja dentro da pasta raiz do projeto
     npm run start
 
 ## Acessando o sistema web
-O sistema estará no seguinte link 
-[Gfinp](http://localhost:3000/)
+O sistema estará no seguinte [link](http://localhost:3000/)
 
+
+    http://localhost:3000
 
 
