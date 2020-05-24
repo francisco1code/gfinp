@@ -12,6 +12,7 @@ const App = () => {
       .then(resposta => {
         console.log(resposta)
       })
+      
   },[]);
 
   return (

@@ -8,14 +8,8 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 const port = 3001;
 
-app.get('/', function (req,res){
-    res.send('Hello wolrd kkkk ');
-});
+require('./controlles/auth')(app);
 
-const rotas = require('./rotas');
-
-app.use(express.static(__dirname + '/frontend'))
-
-app.use('/api', rotas)
+//app.use(express.static(__dirname + '/frontend'))
 
 app.listen(port);

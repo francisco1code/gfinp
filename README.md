@@ -26,14 +26,14 @@ Atenção: Lembrando q todos esses comandos são baseados em cima no sistema ope
 
 # Como Rodar o Gfinp
 ## Subindo o Gfinp
-Atenção: Verifique que você tenha o docker e o docker compose intalado na sua maquina para rodar o conteiner do back-end.
+Atenção: Verifique que você tenha o docker e o docker compose intalado na sua maquina para rodar o conteiner do back-end, e você deve abrir 2 terminais um para o font e outro pro back
 
 
     docker -v && docker-compose -v
 
 
 
-### Back-End 
+### Back-End (Primeiro Terminal)
 Construir a imagem
 
     docker-compose build  
@@ -43,12 +43,12 @@ Subir a imagem
 
     docker-compose up
 
-### Fron-End
-Atenção: Verifique que você esteja dentro da pasta raiz do projeto 
+### Fron-End (Segundo Terminal)
+Atenção: Verifique que você esteja dentro da pasta raiz do front-end
 
 
 
-    npm run start
+    npm install && npm run start
 
 ## Acessando o sistema web
 O sistema estará no seguinte [link](http://localhost:3000/)
