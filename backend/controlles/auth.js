@@ -1,8 +1,9 @@
 const express = require('express');
 
-const User = require('../models/user')
+const User = require('../models/User')
 
 const router = express.Router();
+
 
 router.post('/register', async(req , res) => {
     try {
@@ -10,17 +11,11 @@ router.post('/register', async(req , res) => {
         return res.send( { user } );
         
     } catch (err ){
-        return res.status(400).send( { error: 'Falha no Registro'} )
+        return res.status(400).send( { error: 'Registration failed'} )
     }
 });
 
-router.get('/postagens',(req,res) => {
-    res.json({      
-        titulo: 'meu primeiro post',
-        conteudo: 'coisa com coisa',
-        autor: 'eu mesmo'
-    })
-})
 
 
-module.exports = app => app.use('/auth1', router)
+
+module.exports = app => app.use('/auth', router);

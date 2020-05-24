@@ -2,17 +2,20 @@
 
 1- [O que é o Gfinp](#o-que-é-gfinp)
 
-2- [Como rodar o Gfinp](#como-rodar-o-gfinp)
+2- [Arquiteruta do Gfinp (MVC)]()
 
-* 2.1 - [Instale o docker](https://docs.docker.com/engine/install/ubuntu/)
+3- [Como rodar o Gfinp](#como-rodar-o-gfinp)
 
-* 2.2 - [Instale o docker-compose](https://docs.docker.com/compose/install/)
+* 3.1 - [Instale o docker](https://docs.docker.com/engine/install/ubuntu/)
 
-* 2.3 - [Instale o node.js](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+* 3.2 - [Instale o docker-compose](https://docs.docker.com/compose/install/)
+
+* 3.3 - [Instale o node.js](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
 
 
 
 3- [Acessando o sistema web](#acessando-o-sistema-web)
+
 # O que é Gfinp?
 ## Gfinp 
 É uma plataforma web responsavel por organizar e gerir sua área financeira. O nome é uma sigla para Gestão Finaceira Perssoal.
@@ -22,6 +25,12 @@ Atenção: Lembrando q todos esses comandos são baseados em cima no sistema ope
 * node.js e mondodb   (back-end/banco de dados)
 * react.js   (front-end)
 * docker e docker-compose (devops)
+
+# Arquiteruta do Gfinp (MVC)
+
+MVC é um padrão de arquitetura de software, separando sua aplicação em 3 camadas. A camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller)
+
+
 
 
 # Como Rodar o Gfinp
