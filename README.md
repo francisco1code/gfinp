@@ -1,4 +1,4 @@
-# Gfinp
+# Gfinp (incompleto)
 
 1- [O que é o Gfinp](#o-que-é-gfinp)
 
@@ -30,8 +30,8 @@ Atenção: Lembrando q todos esses comandos são baseados em cima no sistema ope
 
 MVC é um padrão de arquitetura de software, separando sua aplicação em 3 camadas. A camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller)
 
-
-
+![mvc](./imagens/mvc.jpg)
+* obsevação: Sendo que o model e controller são em realizados atraves do node.js e view sendo realizado pelo react.js
 
 # Como Rodar o Gfinp
 ## Subindo o Gfinp

@@ -10,6 +10,7 @@ const port = 3001;
 
 require('./controlles/auth')(app);
 
+
 //app.use(express.static(__dirname + '/frontend'))
 
 app.listen(port);
