@@ -2,7 +2,7 @@
 
 1- [O que é o Gfinp](#o-que-é-gfinp)
 
-2- [Arquiteruta do Gfinp (MVC)]()
+2- [Arquitetura do Gfinp (MVC)](#arquitetura-do-gfinp)
 
 3- [Como rodar o Gfinp](#como-rodar-o-gfinp)
 
@@ -26,7 +26,7 @@ Atenção: Lembrando q todos esses comandos são baseados em cima no sistema ope
 * react.js   (front-end)
 * docker e docker-compose (devops)
 
-# Arquiteruta do Gfinp (MVC)
+# Arquitetura do Gfinp (MVC)
 
 MVC é um padrão de arquitetura de software, separando sua aplicação em 3 camadas. A camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller)
 
